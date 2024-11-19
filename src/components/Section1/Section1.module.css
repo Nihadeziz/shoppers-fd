@@ -1,0 +1,52 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg);
+    background-size: cover;
+display: flex;
+justify-content: end;
+}
+
+.yazi {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left;
+    gap: 20px;
+    padding-right: 60px;
+}
+.yazi h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.yazi p {
+    font-size: 20px;
+}
+
+.yazi button {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(4, 99, 99);
+    color: white;
+    font-size: 17px;
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .yazi {
+        height: auto;
+        width: 80%;
+    }
+}
